@@ -29,7 +29,7 @@ const AddUser = () => {
   return (
     <div>
         <div className="container">
-            <h1 align="center">ADD USER</h1>
+            <h1 align="center">ADD USER</h1><br></br><br></br>
             <div className="row">
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 colxl-12 col-xxl-12">
                     <div className="row g-3">
@@ -60,7 +60,7 @@ const AddUser = () => {
                         </div>
                         <div className="col col-12 col-sm-12 col-md-12 col-lg-12 colxl-12 col-xxl-12"><center>
                             <button className="btn btn-primary" onClick={readValue}>ADD USER</button></center>
-                           <br></br> <center><p><b>Back to login</b><br></br><Link to="/signin">Go back</Link></p></center>
+                           <br></br> <center><p><b>Back to login</b><br></br><Link to="/login">Go back</Link></p></center>
                         </div>
                         
                     </div>
