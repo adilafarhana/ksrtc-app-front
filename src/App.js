@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AddUser from './component/AddUser';
 import Login from './component/Login';
+import AddBus from './component/AddBus';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Routes>
       <Route path='/'element={<AddUser/>}/>
       <Route path='/login'element={<Login/>}/>
+      <Route path='/addbus'element={<AddBus/>}/>
     </Routes>
     </BrowserRouter>
   );
