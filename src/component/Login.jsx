@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import NavUser from './NavUser'
 
 const Login = () => {
     const [data, changeData] = useState(
@@ -26,6 +27,7 @@ const Login = () => {
     }
   return (
     <div>
+        <NavUser/>
          <h1 align="center">LOGIN</h1><br></br><br></br>
         <h5 align="center">SIGNIN</h5><br></br><br></br>
         <div className="container">
@@ -34,11 +36,11 @@ const Login = () => {
                         <div className="row">
             
                             <center><div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                                <input type="email" className="form-control" placeholder='Email ID' name="email" value={data.email} onChange={inputHandler} />
+                                <input type="email" className="form-control" placeholder='Email ID' name="email" value={data.email} onChange={inputHandler} /><br></br>
                             </div></center><br></br>
                             
                             <center><div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                                <input type="password" className="form-control" placeholder='Password' name="password" value={data.password} onChange={inputHandler}/>
+                                <input type="password" className="form-control" placeholder='Password' name="password" value={data.password} onChange={inputHandler}/><br></br>
                             </div></center>
                             
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"><br></br>
