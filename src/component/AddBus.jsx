@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import NavUser from './NavUser'
 
 const AddBus = () => {
     const [data, setData] = useState({
@@ -31,6 +32,7 @@ const AddBus = () => {
     }
   return (
     <div>
+        <NavUser/>
         <div className="container">
             <h2 align="center">ADD BUS</h2>
             <div className="row">
@@ -53,9 +55,9 @@ const AddBus = () => {
                             <input type="text" className="form-control" name='dname' value={data.dname} onChange={inputHandler} />
                         </div>
 
-                        <div className="col col-12 col-sm-6 col-md-6 col-lg-6 colxl-6 col-xxl-6">
-                            <button className="btn btn-success" onClick={readValue}>REGISTER </button>
-                            <p>Back to login.<Link to="/addbus">Go back</Link>LOGIN</p>
+                        <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"><center>
+                            <button className="btn btn-primary" onClick={readValue}>REGISTER </button><br></br>
+                            <p>Back to login.<Link to="/">Go back</Link>LOGIN</p></center>
                         </div>
                     </div>
                 </div>
