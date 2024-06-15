@@ -67,7 +67,7 @@ const AddUser = () => {
                         </div>
                         <div className="col col-12 col-sm-12 col-md-12 col-lg-12 colxl-12 col-xxl-12"><center>
                             <button className="btn btn-primary" onClick={readValue}>ADD USER</button></center>
-                           <br></br> <center><p><b>Back to login</b><br></br><Link to="/addbus">Go back</Link></p></center>
+                           <br></br> <center><p><b>Back to login</b><br></br><Link to="/adduser">Go back</Link></p></center>
                         </div>
                         
                     </div>

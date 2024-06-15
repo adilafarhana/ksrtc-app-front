@@ -28,6 +28,7 @@ const Login = () => {
   return (
     <div>
         <NavUser/>
+        <img srs="https://tse1.mm.bing.net/th?id=OIP.3fRUqP6AmroItkMrREEsowHaE8&pid=Api&P=0&h=180"height="400px" width="400px"></img>
          <h1 align="center">LOGIN</h1><br></br><br></br>
         <h5 align="center">SIGNIN</h5><br></br><br></br>
         <div className="container">
@@ -47,7 +48,7 @@ const Login = () => {
                             <center><button className="btn btn-primary" onClick={readValue}>Login</button></center>
                             </div>
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                <center><Link to='/AddUser'>New User</Link></center>
+                                <center><Link to='/login'>New User</Link></center>
                             </div>
                         </div>
                     </div>
